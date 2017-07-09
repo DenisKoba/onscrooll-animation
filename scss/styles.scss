@@ -1,0 +1,39 @@
+
+.horison{
+  width: 100%;
+  background-image: url(../mountains.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+}
+
+body{
+  height: 1500px;
+  margin: 0;
+  background: #000;
+}
+
+.sun{
+  width: 100px;
+  height: 100px;
+  left: 20%;
+  top: 10%;
+  border-radius: 50px;
+  position: fixed;
+  background-color: #fff7c1;
+  z-index: 4;
+  transition: .1s;
+}
+
+.background-sunset{
+  background-image: url(../sunset.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1500px;
+  width:100%;
+  background-color: transparent;
+  position: absolute;
+}
